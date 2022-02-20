@@ -94,6 +94,7 @@ main {
 
 .about-us-info {
     margin-bottom: 10px;
+    padding: 0 20px;
 }
 
 /*-- produkty --*/
@@ -106,14 +107,28 @@ main {
     text-transform: uppercase;
 }
 
-.first-product {
+.product {
     position: relative;
     height: 400px;
-    background-image: url(../img/nissan-240z-g6c735648b_1280.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
+}
 
+.first-product {
+    background-image: url(../img/nissan-240z-g6c735648b_1280.jpg);
+}
+
+.second-product {
+    background-image: url(../img/nissan-ga2b01aae3_1280.jpg);
+}
+
+.thrid-product {
+    background-image: url(../img/car-g97065f0ef_1280.jpg);
+}
+
+.fourth-product {
+    background-image: url(../img/because-g6862fcd95_1280.jpg);
 }
 
 
@@ -153,7 +168,24 @@ main {
     .hero-text p {
         font-size: 18px;
     }
+
+    .product h3 {
+        font-size: 28px;
+    }
 }
+
+@media (min-width: 992px) {
+
+    .products-box {
+        font-size: 0;
+    }
+
+    .product {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
 
 @media (min-width: 1200px) {
     .hero-text h1 {
