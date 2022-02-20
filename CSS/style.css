@@ -35,9 +35,20 @@ body {
     color: #ddd;
 }
 
+.hero-text h3 {
+    color: rgb(43, 167, 189);
+    font-size: 24px;
+}
+
 .hero-text span {
     text-transform: uppercase;
     color: rgb(43, 167, 189);
+}
+
+.section-title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 
@@ -73,6 +84,37 @@ nav {
     background-position: center;
 }
 
+/*-------- main ----------*/
+
+main {
+    margin: 60px 0;
+}
+
+/* -- o nas --*/
+
+.about-us-info {
+    margin-bottom: 10px;
+}
+
+/*-- produkty --*/
+
+.products {
+    margin: 60px auto;
+}
+
+.product h3 {
+    text-transform: uppercase;
+}
+
+.first-product {
+    position: relative;
+    height: 400px;
+    background-image: url(../img/nissan-240z-g6c735648b_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+}
 
 
 
